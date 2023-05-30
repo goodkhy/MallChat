@@ -56,6 +56,7 @@ import java.util.stream.Stream;
 @Service
 @Slf4j
 public class ChatServiceImpl implements ChatService {
+    //根级
     public static final long ROOM_GROUP_ID = 1L;
     @Autowired
     private MessageDao messageDao;
